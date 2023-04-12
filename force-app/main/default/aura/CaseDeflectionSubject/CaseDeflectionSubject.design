@@ -1,0 +1,3 @@
+<design:component label="Case Deflection Subject">
+   <design:attribute name="subject" label="Subject"/>
+</design:component>

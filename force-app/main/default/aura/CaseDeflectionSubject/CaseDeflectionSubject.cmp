@@ -1,0 +1,7 @@
+<aura:component implements="lightning:availableForFlowScreens" access="global" >
+    <aura:attribute name="subject" type="string" access="global"/>
+    <aura:registerEvent name="appEvent" type="selfService:caseCreateFieldChange"/>
+        <lightning:recordEditForm aura:id="recordEditForm" objectApiName="Case">
+            <lightning:inputField fieldName="Subject" value="{!v.subject}" aura:id="sub" id="subject" required="true" onchange="{!c.itemsChange}"/>
+        </lightning:recordEditForm>
+</aura:component>

@@ -1,0 +1,6 @@
+<aura:documentation>
+	<aura:description>Documentation</aura:description>
+	<aura:example name="CaseDeflectionSubject" ref="caseDeflectionSubject" label="Case Deflection Subject">
+		This displays a subject field usable in Flow Screens that fires the onchange event for the Case Deflection Widget within a community
+	</aura:example>
+</aura:documentation>
