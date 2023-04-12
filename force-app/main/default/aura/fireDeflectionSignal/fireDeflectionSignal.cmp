@@ -1,0 +1,11 @@
+<aura:component access="global" implements="lightning:availableForFlowActions">
+    <aura:handler event="lightningcommunity:deflectionSignal" name="init" value="{!this}" action="{!c.invoke}"/>
+        <aura:attribute name="deflectionState" type="string" access="global"/>
+        <aura:attribute name="deflectionEntityId" type="string" access="global"/>
+        <aura:attribute name="deflectionAnswer" type="string" access="global"/>
+        <aura:attribute name="confirmationAnswer" type="string" access="global"/>
+        <aura:attribute name="caseCreated" type="boolean" access="global"/>
+        <aura:attribute name="deflectionTerm" type="string" access="global"/>
+        <aura:attribute name="deflectionEntityType" type="string" access="global"/>
+        <aura:attribute name="shouldSubmitSourceTypeSignals" type="boolean" access="global"/>
+</aura:component>	

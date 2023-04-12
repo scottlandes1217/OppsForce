@@ -1,0 +1,10 @@
+<design:component label="Deflection Signal">
+   <design:attribute name="deflectionState" label="State" description="MeasureDeflectionState(the user didn’t answer the first question) -- ConfirmationQuestionState(the user didn’t answer the second question) -- ConfirmationMessageState(the user answered both questions"/>
+   <design:attribute name="deflectionEntityId" label="Entity ID" description="Id of the Article or Chat"/>
+   <design:attribute name="deflectionAnswer" label="Deflection Answer" description="YES, NO, null(the user didn’t vote)"/>
+   <design:attribute name="confirmationAnswer" label="Confirmation Answer" description="YES, NO, null(the user didn’t vote)"/>
+   <design:attribute name="caseCreated" label="Case Created" description="True/False"/>
+   <design:attribute name="deflectionTerm" label="Source" description="This is the search term used. Can be the Record Type Name or Type"/>
+   <design:attribute name="deflectionEntityType" label="Destination Type" description="Object API Name?"/>
+   <design:attribute name="shouldSubmitSourceTypeSignals" label="Submit Signal"  description="Check this to commit all signals"/>
+</design:component>

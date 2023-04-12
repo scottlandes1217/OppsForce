@@ -1,0 +1,6 @@
+<aura:documentation>
+	<aura:description>Documentation</aura:description>
+	<aura:example name="fireDeflectionSignal" ref="fireDeflectionSignal" label="fireDeflectionSignal">
+		Fires Deflection Signal. Has the ability to create or publish the signals.
+	</aura:example>
+</aura:documentation>
